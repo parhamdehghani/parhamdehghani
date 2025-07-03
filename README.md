@@ -12,7 +12,7 @@
   <a href="mailto:parham.dehghani88@gmail.com"><img src="https://img.shields.io/badge/Email-%F0%9F%93%A7-lightgrey?style=flat" alt="Email"/></a>
 </p>
 
----
+
 
 ## 🚀 About Me
 
@@ -22,7 +22,7 @@
 * Proficient to build MLOps pipelines with **Docker · Kubernetes · Airflow · MLflow · GitHub Actions** on **AWS SageMaker** & **GCP Vertex AI**.
 * Passionate about bridging **HPC ↔ Cloud** and **Research ↔ Production**.
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -59,7 +59,7 @@
   <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/langchain.svg" alt="LangChain" width="50" height="50"/>
 </p>
 
----
+
 
 ## 🌐 Featured Projects
 
@@ -73,15 +73,7 @@
 
 > ✨ See more on my [Portfolio](https://parhamdehghani.github.io/Portfolio/) — including interactive demos & notebooks.
 
----
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=parhamdehghani&show_icons=true&hide_border=true&theme=react" alt="GitHub stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=parhamdehghani&hide_border=true&theme=react" alt="GitHub streak"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parhamdehghani&layout=compact&hide_border=true&theme=react&hide=html" alt="Top languages"/>
-</p>
-
----
 
 ## 🔭 Currently Working On
 
@@ -92,4 +84,9 @@
 
 * **Research:** Find my peer‑reviewed physics papers on [Inspire‑HEP](https://inspirehep.net/authors/1809580) & [Google Scholar](https://scholar.google.ca/citations?user=uZlG1Z8AAAAJ&hl).  
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=parhamdehghani&show_icons=true&hide_border=true&theme=default" alt="GitHub stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=parhamdehghani&hide_border=true&theme=default" alt="GitHub streak"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parhamdehghani&layout=compact&hide_border=true&theme=default&hide=html" alt="Top languages"/>
+</p>
 
