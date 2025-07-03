@@ -1,4 +1,100 @@
-PhD in particle physics with extensive experience in machine learning and coding, armed with a deep understanding of advanced algorithms. Strong problem-solving skills and a passion for innovation. Proficient in data wrangling, ETL coding, AWS computation, machine learning algorithms, NLP transformers, and ML pipeline development. Have worked on many challenging research projects in particle physics and industry that differentiate my capabilities.
+# Hi there 👋 I'm **Parham Dehghani**
 
-You can reach out to me via email:
-parham.dehghani88@gmail.com
+<p align="center">
+  <b>Machine Learning Engineer | Data Scientist | Particle Physicist</b><br/>
+  <i>Turning cutting‑edge research into scalable, production‑grade AI.</i>
+</p>
+
+<p align="center">
+  <a href="https://parhamdehghani.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-%F0%9F%93%8A-green?style=flat&logo=docusign" alt="Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/parhamdehghani/"><img src="https://img.shields.io/badge/LinkedIn-0072b1?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://drive.google.com/file/d/1M1BD8U5_8J9uDIRhQCaQlxXKwPQ321Ky/view?usp=sharing"><img src="https://img.shields.io/badge/Resume-PDF-red?style=flat&logo=adobeacrobatreader" alt="Resume"/></a>
+  <a href="mailto:parham.dehghani88@gmail.com"><img src="https://img.shields.io/badge/Email-%F0%9F%93%A7-lightgrey?style=flat" alt="Email"/></a>
+</p>
+
+---
+
+## 🚀 About Me
+
+* **5+ years** designing, training & shipping ML models across **Scale AI**, startups and academia.
+* PhD candidate at **Concordia University**, applying deep learning to Beyond‑Standard‑Model (BSM) searches at future colliders.
+* Specialize in **LLM evaluation & fine‑tuning** (SFT & RLHF) across text, image, video & audio.
+* Builder of MLOps pipelines with **Docker · Kubernetes · Airflow · MLflow · GitHub Actions** on **AWS SageMaker** & **GCP Vertex AI** (reduced release cycles 🚀 by 30 %).
+* Passionate about bridging **HPC ↔ Cloud** and **Research ↔ Production**.
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Tooling |
+| --- | --- |
+| **Languages** | Python · SQL · Bash · C++/Fortran (HPC) |
+| **Frameworks** | PyTorch · TensorFlow · scikit‑learn · Hugging Face 🤗 · LangChain |
+| **MLOps / Infra** | Docker · Kubernetes · Airflow · MLflow · DVC · GitHub Actions · Jenkins · Prometheus + Grafana |
+| **Cloud** | AWS (SageMaker, Lambda, S3) · GCP (Vertex AI, BigQuery) |
+| **Data Processing** | Spark · Dask · Pandas |
+
+---
+
+## 🧰 Toolbox & Main Skills
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" alt="PyTorch" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/huggingface.svg" alt="Hugging Face" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg" alt="GCP" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original.svg" alt="Kafka" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apacheairflow/apacheairflow-original.svg" alt="Airflow" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu" width="50" height="50"/>
+</p>
+
+---
+
+## 🌐 Featured Projects
+
+| Project | What it does | Stack | Quick Links |
+| --- | --- | --- | --- |
+| **detoxification‑rl** | RL‑based detoxification for LLM outputs using PPO & LoRA. | PyTorch, PEFT, Hugging Face Transformers | [Repo](https://github.com/parhamdehghani/detoxification-rl) |
+| **WebApp_DisasterResponse** | Multi‑label crisis classifier with TF‑IDF & LightGBM, wrapped in a Flask web‑app. | Scikit‑learn, Flask, Heroku | [Repo](https://github.com/parhamdehghani/WebApp_DisasterResponse)  |
+| **Recommendation Engine** | Personalized recommendation system using collaborative filtering & ALS. | Spark MLlib, Pandas | [Repo](https://github.com/parhamdehghani/Recommendation_Engine) |
+| **Seattle Airbnb Insight** | Predicts Airbnb prices & explores key factors with interactive visuals. | XGBoost, Streamlit | [Repo](https://github.com/parhamdehghani/SeattleAirbnbInsight)  |
+| **CovidDetectionXRay** | Detects COVID‑19 from chest X‑rays & explains predictions via Grad‑CAM. | Keras, OpenCV | [Repo](https://github.com/parhamdehghani/CovidDetectionXRay) |
+
+> ✨ See more on my [Portfolio](https://parhamdehghani.github.io/Portfolio/) — including interactive demos & notebooks.
+
+---
+
+## 📈 GitHub Analytics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=parhamdehghani&show_icons=true&hide_border=true&theme=react" alt="GitHub stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=parhamdehghani&hide_border=true&theme=react" alt="GitHub streak"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parhamdehghani&layout=compact&hide_border=true&theme=react&hide=html" alt="Top languages"/>
+</p>
+
+---
+
+## 🔭 Currently Working On
+
+* Building automated **RAG evaluation pipelines** for domain‑specific LLMs.
+* Preparing for **AWS DevOps Engineer Professional** certification.
+
+---
+
+## 📚 Publications & Talks
+
+* **Research:** Find my peer‑reviewed physics papers on [Inspire‑HEP](https://inspirehep.net/authors/1809580) & [Google Scholar](https://scholar.google.ca/citations?user=uZlG1Z8AAAAJ&hl).  
+
+
+---
+
+## 🤝 Let’s Connect!
+
+I’m always excited to discuss ML engineering, MLOps, and the crossroads of fundamental physics & AI.
+
+- Email: **parham.dehghani88@gmail.com**
+- LinkedIn: [parhamdehghani](https://www.linkedin.com/in/parhamdehghani/)
