@@ -89,4 +89,6 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=parhamdehghani&hide_border=true&theme=default" alt="GitHub streak"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parhamdehghani&layout=compact&hide_border=true&theme=default&hide=html" alt="Top languages"/>
 </p>
-
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=parhamdehghani&theme=flat&column=8&rank=S,A,B,C" alt="GitHub Trophies"/>
+</p>
