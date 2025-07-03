@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://parhamdehghani.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-%F0%9F%93%8A-green?style=flat&logo=docusign" alt="Portfolio"/></a>
   <a href="https://www.linkedin.com/in/parhamdehghani/"><img src="https://img.shields.io/badge/LinkedIn-0072b1?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://drive.google.com/file/d/1M1BD8U5_8J9uDIRhQCaQlxXKwPQ321Ky/view?usp=sharing"><img src="https://img.shields.io/badge/Resume-PDF-red?style=flat&logo=adobeacrobatreader" alt="ML Udacity Degree"/></a>
+  <a href="https://drive.google.com/file/d/1M1BD8U5_8J9uDIRhQCaQlxXKwPQ321Ky/view?usp=sharing"><img src="https://img.shields.io/badge/Certificate-Udacity%20ML%20Nanodegree-blue?style=flat&logo=Udacity" alt="Udacity ML Nanodegree"/></a>
   <a href="mailto:parham.dehghani88@gmail.com"><img src="https://img.shields.io/badge/Email-%F0%9F%93%A7-lightgrey?style=flat" alt="Email"/></a>
 </p>
 
