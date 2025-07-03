@@ -75,8 +75,6 @@
 
 ---
 
-## 📈 GitHub Analytics
-
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=parhamdehghani&show_icons=true&hide_border=true&theme=react" alt="GitHub stats"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=parhamdehghani&hide_border=true&theme=react" alt="GitHub streak"/>
@@ -94,11 +92,4 @@
 
 * **Research:** Find my peer‑reviewed physics papers on [Inspire‑HEP](https://inspirehep.net/authors/1809580) & [Google Scholar](https://scholar.google.ca/citations?user=uZlG1Z8AAAAJ&hl).  
 
----
 
-## 🤝 Let’s Connect!
-
-I’m always excited to discuss ML engineering, MLOps, and the crossroads of fundamental physics & AI.
-
-- Email: **parham.dehghani88@gmail.com**
-- LinkedIn: [parhamdehghani](https://www.linkedin.com/in/parhamdehghani/)
