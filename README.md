@@ -45,7 +45,7 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" width="50" height="50"/>
   <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/huggingface.svg" alt="Hugging Face" width="50" height="50"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" alt="Scikit‑learn" width="50" height="50"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apacheSpark/apacheSpark-original.svg" alt="Apache Spark" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachespark/apachespark-original.svg" alt="Apache Spark" width="50" height="50"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="50" height="50"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" width="50" height="50"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="50" height="50"/>
@@ -57,6 +57,9 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="50" height="50"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/streamlit/streamlit-original.svg" alt="Streamlit" width="50" height="50"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/mlflow.svg" alt="MLflow" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/githubactions/githubactions-original.svg" alt="GitHub Actions" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/langchain.svg" alt="LangChain" width="50" height="50"/>
 </p>
 
 ---
@@ -87,15 +90,12 @@
 
 ## 🔭 Currently Working On
 
-* Building automated **RAG evaluation pipelines** for domain‑specific LLMs.
-* Preparing for **AWS DevOps Engineer Professional** certification.
-
+* **GrocRAG** which is a Retrieval‑Augmented Generation (RAG) micro‑service that answers natural‑language grocery and recipe questions using an up‑to‑date product catalogue. This project demonstrates LLM orchestration, prompt design, RAG, data pipelines, CI/CD, containerisation, and monitoring in a production-level environment and can be expanded to user-specific datasets.  
 ---
 
-## 📚 Publications & Talks
+## 📚 Publications
 
 * **Research:** Find my peer‑reviewed physics papers on [Inspire‑HEP](https://inspirehep.net/authors/1809580) & [Google Scholar](https://scholar.google.ca/citations?user=uZlG1Z8AAAAJ&hl).  
-
 
 ---
 
