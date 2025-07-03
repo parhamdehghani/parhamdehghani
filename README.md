@@ -34,9 +34,6 @@
 | **Cloud** | AWS (SageMaker, Lambda, S3) · GCP (Vertex AI, BigQuery) |
 | **Data Processing** | Spark · Dask · Pandas |
 
----
-
-## 🧰 Toolbox & Main Skills
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="50" height="50"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="50" height="50"/>
