@@ -24,7 +24,7 @@
 
 ## 📚 Publications
 
-Find my peer‑reviewed physics papers on [Inspire‑HEP](https://inspirehep.net/authors/1809580) & [Google Scholar](https://scholar.google.ca/citations?user=uZlG1Z8AAAAJ&hl).  
+Find my peer‑reviewed HEP papers on [Inspire‑HEP](https://inspirehep.net/authors/1809580) & [Google Scholar](https://scholar.google.ca/citations?user=uZlG1Z8AAAAJ&hl).  
 
 ## 🛠️ Tech Stack
 
@@ -85,7 +85,7 @@ Find my peer‑reviewed physics papers on [Inspire‑HEP](https://inspirehep.ne
 - **Agentic RAG** – LangChain ReAct agent with tools for arXiv search, BibTeX lookup and on-the-fly physics math.  
 - **Open-access corpus** – Daily-refreshed HEP abstracts (arXiv OAI-PMH) embedded with `text-embedding-3-large`, stored in pgvector on Cloud SQL.  
 - **Cloud-native** – FastAPI on Cloud Run, vLLM container on Vertex AI, pipelines orchestrated by Cloud Scheduler for Cloud Run jobs.  
-- **Prod-ready** – Terraform IaC, GitHub Actions + Cloud Build/Deploy, Prometheus metrics, Grafana dashboard, Secret Manager & Workload Identity.  
+- **Production-ready** – Terraform IaC, GitHub Actions + Cloud Build/Deploy, Prometheus metrics, Grafana dashboard, Secret Manager & Workload Identity.  
 
 
 <p align="center">
