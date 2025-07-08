@@ -77,7 +77,7 @@
 
 ## 🔭 Currently Working On
 
-* **GrocRAG** which is a Retrieval‑Augmented Generation (RAG) micro‑service that answers natural‑language grocery and recipe questions using an up‑to‑date product catalogue. This project demonstrates LLM orchestration, prompt design, RAG, data pipelines, CI/CD, containerisation, and monitoring in a production-level environment and can be expanded to user-specific datasets.  
+* **PhysRAG** which is a **production‑grade Retrieval‑Augmented Generation (RAG) system with an agentic layer** that helps particle‑physics researchers query the arXiv literature, compute quick formulae and generate BibTeX citations — all running **serverlessly on Google Cloud Platform**.
 ---
 
 ## 📚 Publications
