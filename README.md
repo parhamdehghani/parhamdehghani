@@ -24,7 +24,7 @@
 
 ## 📚 Publications
 
-* **Research:** Find my peer‑reviewed physics papers on [Inspire‑HEP](https://inspirehep.net/authors/1809580) & [Google Scholar](https://scholar.google.ca/citations?user=uZlG1Z8AAAAJ&hl).  
+Find my peer‑reviewed physics papers on [Inspire‑HEP](https://inspirehep.net/authors/1809580) & [Google Scholar](https://scholar.google.ca/citations?user=uZlG1Z8AAAAJ&hl).  
 
 ## 🛠️ Tech Stack
 
@@ -73,13 +73,13 @@
 | **Seattle Airbnb Insight** | Predicts Airbnb prices & explores key factors with interactive visuals. | XGBoost, Streamlit | [Repo](https://github.com/parhamdehghani/SeattleAirbnbInsight)  |
 | **CovidDetectionXRay** | Detects COVID‑19 from chest X‑rays & explains predictions via Grad‑CAM. | Keras, OpenCV | [Repo](https://github.com/parhamdehghani/CovidDetectionXRay) |
 
-> ✨ See more on my [Portfolio](https://parhamdehghani.github.io/Portfolio/) — including interactive demos & notebooks.
+> ✨ See more on my [Portfolio](https://parhamdehghani.github.io/Portfolio/).
 
 
 
 ## 🔭 Currently Working On
 
-* **PhysRAG** A production‑grade Retrieval‑Augmented Generation (RAG) system with an agentic layer that helps particle‑physics researchers query the arXiv literature, compute quick formulae and generate BibTeX citations, all running serverlessly on Google Cloud Platform (GCP).
+ **PhysRAG** A production‑grade Retrieval‑Augmented Generation (RAG) system with an agentic layer that helps particle physics researchers query the arXiv literature, compute quick formulae and generate BibTeX citations, all running serverlessly on Google Cloud Platform (GCP).
 
 ### Different layers of the project:
 - **Agentic RAG** – LangChain ReAct agent with tools for arXiv search, BibTeX lookup and on-the-fly physics math.  
