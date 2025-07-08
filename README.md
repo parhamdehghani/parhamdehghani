@@ -22,7 +22,9 @@
 * Proficient to build MLOps pipelines with **Docker · Kubernetes · Airflow · MLflow · GitHub Actions** on **AWS SageMaker** & **GCP Vertex AI**.
 * Passionate about bridging **HPC ↔ Cloud** and **Research ↔ Production**.
 
+## 📚 Publications
 
+* **Research:** Find my peer‑reviewed physics papers on [Inspire‑HEP](https://inspirehep.net/authors/1809580) & [Google Scholar](https://scholar.google.ca/citations?user=uZlG1Z8AAAAJ&hl).  
 
 ## 🛠️ Tech Stack
 
@@ -77,12 +79,14 @@
 
 ## 🔭 Currently Working On
 
-* **PhysRAG** which is a **production‑grade Retrieval‑Augmented Generation (RAG) system with an agentic layer** that helps particle‑physics researchers query the arXiv literature, compute quick formulae and generate BibTeX citations — all running **serverlessly on Google Cloud Platform**.
----
+* **PhysRAG** A production‑grade Retrieval‑Augmented Generation (RAG) system with an agentic layer that helps particle‑physics researchers query the arXiv literature, compute quick formulae and generate BibTeX citations, all running serverlessly on Google Cloud Platform (GCP).
 
-## 📚 Publications
+### Different layers of the project:
+- **Agentic RAG** – LangChain ReAct agent with tools for arXiv search, BibTeX lookup and on-the-fly physics math.  
+- **Open-access corpus** – Daily-refreshed HEP abstracts (arXiv OAI-PMH) embedded with `text-embedding-3-large`, stored in pgvector on Cloud SQL.  
+- **Cloud-native** – FastAPI on Cloud Run, vLLM container on Vertex AI, pipelines orchestrated by Cloud Scheduler for Cloud Run jobs.  
+- **Prod-ready** – Terraform IaC, GitHub Actions + Cloud Build/Deploy, Prometheus metrics, Grafana dashboard, Secret Manager & Workload Identity.  
 
-* **Research:** Find my peer‑reviewed physics papers on [Inspire‑HEP](https://inspirehep.net/authors/1809580) & [Google Scholar](https://scholar.google.ca/citations?user=uZlG1Z8AAAAJ&hl).  
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=parhamdehghani&show_icons=true&hide_border=true&theme=default" alt="GitHub stats"/>
