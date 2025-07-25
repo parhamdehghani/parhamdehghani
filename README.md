@@ -79,15 +79,10 @@ Find my peer‑reviewed HEP papers on [Inspire‑HEP](https://inspirehep.net/au
 
 ## 🔭 Currently Working On
 
-**Churn Prediction AI Agent (churn-prediction-ai-agent)**
-
-Designing, building, and deploying a scalable end-to-end MLOps system. This system will use a predictive churn model trained on the large dataset WSDM-KKBox and a generative AI agent to diagnose churn risk and automate the creation of a detailed task in a project management system, triggering a human-led retention workflow.
-
-## Project Overview
-
+###Churn Prediction AI Agent (churn-prediction-ai-agent)
 This project showcases a scalable, end-to-end MLOps system designed for **proactive customer retention**. The system uses a predictive churn model employing large WSDM-KKBox dataset and a generative AI agent to identify at-risk customers, diagnose the reasons for their churn risk, and automatically create a detailed task in a project management system. This triggers a human-led retention workflow, bridging the gap between prediction and action. The entire process is automated through a robust MLOps pipeline, ensuring continuous integration, automated deployment, and production monitoring.
 
-## Technology Stack
+**Technology Stack**
 
 This project utilizes a modern technology stack to handle each phase of the machine learning lifecycle:
 
@@ -100,7 +95,7 @@ This project utilizes a modern technology stack to handle each phase of the mach
 * **Monitoring**: Prometheus, Grafana
 * **Collaboration**: Jira (simulated API)
 
-## Project Phases
+**Project Phases**
 
 The project is structured into six distinct phases, creating a full-cycle MLOps workflow:
 
