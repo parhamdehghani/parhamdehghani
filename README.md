@@ -79,13 +79,27 @@ Find my peer‑reviewed HEP papers on [Inspire‑HEP](https://inspirehep.net/au
 
 ## 🔭 Currently Working On
 
- **PhysRAG** A production‑grade Retrieval‑Augmented Generation (RAG) system with an agentic layer that helps particle physics researchers query the arXiv literature, compute quick formulae and generate BibTeX citations, all running serverlessly on Google Cloud Platform (GCP).
+**Churn Prediction AI Agent (churn-prediction-ai-agent)**
 
-### Different layers of the project:
-- **Agentic RAG** – LangChain ReAct agent with tools for arXiv search, BibTeX lookup and on-the-fly physics math.  
-- **Open-access corpus** – Daily-refreshed HEP abstracts (arXiv OAI-PMH) embedded with `text-embedding-3-large`, stored in pgvector on Cloud SQL.  
-- **Cloud-native** – FastAPI on Cloud Run, vLLM container on Vertex AI, pipelines orchestrated by Cloud Scheduler for Cloud Run jobs.  
-- **Production-ready** – Terraform IaC, GitHub Actions + Cloud Build/Deploy, Prometheus metrics, Grafana dashboard, Secret Manager & Workload Identity.  
+An end-to-end MLOps system that proactively identifies and acts on customer churn risk using a predictive model and an intelligent AI agent. This project demonstrates a full lifecycle approach to machine learning, from large-scale data engineering to automated deployment and intelligent action. When a customer is flagged as high-risk, an AI agent automatically investigates and creates a detailed task for the retention team.
+
+### Key Features
+
+* **Predictive Modeling**: Trains a churn prediction model on a large dataset (WSDM-KKBox) using Apache Spark (PySpark) and Spark MLlib.
+* **Scalable Deployment**: The model is served via a containerized FastAPI application, deployed to a real-time, scalable AWS SageMaker Endpoint.
+* **CI/CD Automation**: The entire build and deployment process is automated using a GitHub Actions workflow that triggers on every push to the main branch.
+* **Autonomous AI Agent**: An intelligent agent, built with LangChain, investigates high-risk customers by gathering user data. It then uses its analysis to automatically create a detailed, evidence-based ticket for the retention team.
+* **Production Monitoring**: The live endpoint is monitored for performance and health using Prometheus and Grafana.
+
+### Technology Stack
+
+* **Data Engineering**: Apache Spark, AWS S3
+* **Machine Learning**: Spark MLlib 
+* **API & Containerization**: FastAPI, Docker 
+* **Cloud & MLOps**: AWS SageMaker (Pipelines, Processing Jobs, Endpoints) 
+* **CI/CD**: Git, GitHub Actions 
+* **AI Agent Framework**: LangChain, Google Gemini 
+* **Monitoring**: Prometheus, Grafana 
 
 
 <p align="center">
