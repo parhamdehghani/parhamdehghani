@@ -99,7 +99,7 @@ This project utilizes a modern, cloud-native technology stack to handle each pha
 
 The project is structured into six distinct phases, creating a full-cycle MLOps workflow on Google Cloud:
 
-1.  **Data Engineering & Predictive Modeling at Scale**: Process a large dataset and train a churn prediction model using PySpark on a serverless Google Cloud Dataproc job. The data and model artifacts are stored in Google Cloud Storage.
+1.  **Data Engineering & Predictive Modeling at Scale**: Process the large dataset WSDM-KKBox and train a churn prediction model using PySpark on a serverless Google Cloud Dataproc job. The data and model artifacts are stored in Google Cloud Storage.
 2.  **API Development & Containerization**: Build a lightweight FastAPI microservice to serve model predictions. This application is then containerized using Docker to ensure portability.
 3.  **Continuous Integration (CI) Automation**: Create a GitHub Actions workflow to automatically test the application and publish the Docker image to a private Google Artifact Registry repository upon changes to the main branch.
 4.  **Workflow Orchestration with Airflow**: Use Apache Airflow (via Google Cloud Composer) to orchestrate the entire ML pipeline. A DAG is defined to automate the model training on Dataproc, deployment to a Vertex AI Endpoint, and the execution of the intelligence agent.
