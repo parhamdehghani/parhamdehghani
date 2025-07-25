@@ -83,24 +83,33 @@ Find my peer‑reviewed HEP papers on [Inspire‑HEP](https://inspirehep.net/au
 
 Designing, building, and deploying a scalable end-to-end MLOps system. This system will use a predictive churn model trained on the large dataset WSDM-KKBox and a generative AI agent to diagnose churn risk and automate the creation of a detailed task in a project management system, triggering a human-led retention workflow.
 
-### Key Features
+## Project Overview
 
-* **Predictive Modeling**: Trains a churn prediction model on a large dataset (WSDM-KKBox) using Apache Spark (PySpark) and Spark MLlib.
-* **Scalable Deployment**: The model is served via a containerized FastAPI application, deployed to a real-time, scalable AWS SageMaker Endpoint.
-* **CI/CD Automation**: The entire build and deployment process is automated using a GitHub Actions workflow that triggers on every push to the main branch.
-* **Autonomous AI Agent**: An intelligent agent, built with LangChain, investigates high-risk customers by gathering user data. It then uses its analysis to automatically create a detailed, evidence-based ticket for the retention team.
-* **Production Monitoring**: The live endpoint is monitored for performance and health using Prometheus and Grafana.
+This project showcases a scalable, end-to-end MLOps system designed for **proactive customer retention**. The system uses a predictive churn model employing large WSDM-KKBox dataset and a generative AI agent to identify at-risk customers, diagnose the reasons for their churn risk, and automatically create a detailed task in a project management system. This triggers a human-led retention workflow, bridging the gap between prediction and action. The entire process is automated through a robust MLOps pipeline, ensuring continuous integration, automated deployment, and production monitoring.
 
-### Technology Stack
+## Technology Stack
 
-* **Data Engineering**: Apache Spark, AWS S3
-* **Machine Learning**: Spark MLlib 
-* **API & Containerization**: FastAPI, Docker 
-* **Cloud & MLOps**: AWS SageMaker (Pipelines, Processing Jobs, Endpoints) 
-* **CI/CD**: Git, GitHub Actions, AWS ECR
+This project utilizes a modern technology stack to handle each phase of the machine learning lifecycle:
+
+* **Data Processing**: Apache Spark (PySpark), AWS S3
+* **API & Containerization**: FastAPI, Docker
+* **CI/CD**: Git, GitHub, GitHub Actions, AWS ECR
 * **Workflow Orchestration**: Apache Airflow, AWS Provider for Airflow
-* **AI Agent Framework**: LangChain, LLM API (Google Gemini) 
-* **Monitoring**: Prometheus, Grafana 
+* **Model Deployment**: AWS SageMaker (Processing Jobs, Endpoints)
+* **Generative AI**: LangChain, LLM API (e.g., Google Gemini)
+* **Monitoring**: Prometheus, Grafana
+* **Collaboration**: Jira (simulated API)
+
+## Project Phases
+
+The project is structured into six distinct phases, creating a full-cycle MLOps workflow:
+
+1.  **Data Engineering & Predictive Modeling at Scale**: Process the large dataset WSDM-KKBox with PySpark and train a robust churn prediction model using Spark MLlib.
+2.  **API Development & Containerization**: Build a lightweight FastAPI microservice to serve model predictions and containerize it with Docker for portability.
+3.  **Continuous Integration (CI) Automation**: Create a GitHub Actions workflow to automatically test the application and publish the Docker image to AWS ECR.
+4.  **Workflow Orchestration with Airflow**: Use Apache Airflow to manage the entire ML pipeline, from triggering model training in SageMaker to deploying the final endpoint.
+5.  **The "Intelligence Agent" for Actionable Intervention**: Develop a LangChain-based AI agent that uses the model's output to investigate user data and automatically create a detailed intervention task in Jira.
+6.  **Production Monitoring**: Implement observability on the deployed SageMaker endpoint using Prometheus and Grafana to track operational health and performance.
 
 
 <p align="center">
