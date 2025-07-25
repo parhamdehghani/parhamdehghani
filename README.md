@@ -81,7 +81,7 @@ Find my peer‑reviewed HEP papers on [Inspire‑HEP](https://inspirehep.net/au
 
 **Churn Prediction AI Agent (churn-prediction-ai-agent)**
 
-An end-to-end MLOps system that proactively identifies and acts on customer churn risk using a predictive model and an intelligent AI agent. This project demonstrates a full lifecycle approach to machine learning, from large-scale data engineering to automated deployment and intelligent action. When a customer is flagged as high-risk, an AI agent automatically investigates and creates a detailed task for the retention team.
+Designing, building, and deploying a scalable end-to-end MLOps system. This system will use a predictive churn model trained on the large dataset WSDM-KKBox and a generative AI agent to diagnose churn risk and automate the creation of a detailed task in a project management system, triggering a human-led retention workflow.
 
 ### Key Features
 
@@ -97,8 +97,9 @@ An end-to-end MLOps system that proactively identifies and acts on customer chur
 * **Machine Learning**: Spark MLlib 
 * **API & Containerization**: FastAPI, Docker 
 * **Cloud & MLOps**: AWS SageMaker (Pipelines, Processing Jobs, Endpoints) 
-* **CI/CD**: Git, GitHub Actions 
-* **AI Agent Framework**: LangChain, Google Gemini 
+* **CI/CD**: Git, GitHub Actions, AWS ECR
+* **Workflow Orchestration**: Apache Airflow, AWS Provider for Airflow
+* **AI Agent Framework**: LangChain, LLM API (Google Gemini) 
 * **Monitoring**: Prometheus, Grafana 
 
 
