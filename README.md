@@ -80,18 +80,20 @@ Find my peer‑reviewed HEP papers on [Inspire‑HEP](https://inspirehep.net/au
 ## 🔭 Currently Working On
 
 ### Churn Prediction AI Agent (churn-prediction-ai-agent)
-This project showcases a scalable, end-to-end MLOps system built entirely on **Google Cloud**. The system is designed for proactive customer retention, leveraging a predictive churn model trained with **Spark on Dataproc** and an intelligent agent powered by the **Gemini API**. This agent diagnoses churn risk and automates the creation of detailed tasks in a project management system like Jira. The entire workflow is orchestrated using **Apache Airflow on Google Cloud Composer** and monitored with a Prometheus and Grafana stack, demonstrating a complete, production-ready solution. The codebase can be employed for much larger datasets that can benefit real-world applications. 
+This project is to architect, build, and deploy a scalable, end-to-end MLOps system on Google Cloud. This system will use version-controlled data (DVC), tracked experiments (MLflow), a Jenkins CI/CD pipeline, an Airflow-orchestrated deployment to a Google Kubernetes Engine (GKE) cluster, and a Retrieval-Augmented Generation (RAG) agent to automate a customer retention workflow. The codebase can be employed for much larger datasets that can benefit real-world applications. 
 
 **Technology Stack**
 
 This project utilizes a modern, cloud-native technology stack to handle each phase of the machine learning lifecycle:
 
+* **Data & Model Versioning**: DVC (Data Version Control)
+* **Experiment Tracking & Registry**: MLflow
 * **Data Processing**: Apache Spark (PySpark), Google Cloud Storage (GCS), Google Cloud Dataproc
 * **API & Containerization**: Python, FastAPI, Docker
-* **CI/CD & Registry**: Git, GitHub, GitHub Actions, Google Artifact Registry
-* **Workflow Orchestration**: Apache Airflow, Google Cloud Composer, Google Provider for Airflow
-* **Model Deployment**: Google Vertex AI Endpoints
-* **Generative AI**: Google Gemini API (via Vertex AI SDK), LangChain
+* **CI/CD**: Jenkins, Git, GitHub, Google Artifact Registry
+* **Workflow Orchestration**: Apache Airflow, Google Cloud Composer
+* **Container Orchestration**: Google Kubernetes Engine (GKE)
+* **Generative AI**: Retrieval-Augmented Generation (RAG), Google Vertex AI Vector Search, LangChain, Google Gemini API
 * **Monitoring**: Prometheus, Grafana
 * **Collaboration**: Jira (simulated API)
 
@@ -99,12 +101,12 @@ This project utilizes a modern, cloud-native technology stack to handle each pha
 
 The project is structured into six distinct phases, creating a full-cycle MLOps workflow on Google Cloud:
 
-1.  **Data Engineering & Predictive Modeling at Scale**: Process the large dataset WSDM-KKBox and train a churn prediction model using PySpark on a serverless Google Cloud Dataproc job. The data and model artifacts are stored in Google Cloud Storage.
-2.  **API Development & Containerization**: Build a lightweight FastAPI microservice to serve model predictions. This application is then containerized using Docker to ensure portability.
-3.  **Continuous Integration (CI) Automation**: Create a GitHub Actions workflow to automatically test the application and publish the Docker image to a private Google Artifact Registry repository upon changes to the main branch.
-4.  **Workflow Orchestration with Airflow**: Use Apache Airflow (via Google Cloud Composer) to orchestrate the entire ML pipeline. A DAG is defined to automate the model training on Dataproc, deployment to a Vertex AI Endpoint, and the execution of the intelligence agent.
-5.  **The "Intelligence Agent" with Gemini**: Develop an agent using LangChain and the Gemini API that investigates high-risk users. The agent uses custom tools to gather user data and automatically creates a detailed intervention task in Jira with its findings.
-6.  **Application & Performance Monitoring**: Implement a monitoring stack with Prometheus and Grafana to track the real-time performance of the deployed Vertex AI Endpoint. The FastAPI application is instrumented to expose a `/metrics` endpoint, which Prometheus scrapes to visualize key metrics like latency and error rates in a Grafana dashboard.
+1.  **Data Engineering & Predictive Modeling at Scale**: Processes a large dataset, versioned with **DVC**, and trains a churn prediction model using **PySpark** on a serverless Google Cloud Dataproc job. All experiments are tracked using **MLflow**, with artifacts stored in Google Cloud Storage.
+2.  **API Development & Containerization**: Builds a lightweight **FastAPI** microservice to serve model predictions. This application is then containerized using **Docker** to ensure portability and consistency.
+3.  **Continuous Integration (CI) Automation**: Creates a CI/CD pipeline using a `Jenkinsfile` to automatically test the application, pull versioned data with **DVC**, build the Docker image, and publish it to a private **Google Artifact Registry** repository.
+4.  **Workflow Orchestration with Airflow**: Uses **Apache Airflow** to orchestrate the entire ML pipeline. A DAG is defined to automate the model training on Dataproc, query the MLflow registry for a validated model, and trigger the deployment to a **Google Kubernetes Engine (GKE)** cluster.
+5.  **The "Intelligence Agent" with Gemini**: Develops a **RAG** agent using **LangChain** and the **Gemini API**. The agent investigates high-risk users by querying a **Vertex AI Vector Search** knowledge base and automatically creates a detailed intervention task in Jira with its findings.
+6.  **Application & Performance Monitoring**: Implements a monitoring stack with **Prometheus** and **Grafana** deployed inside the **GKE** cluster. The FastAPI application is instrumented to expose a `/metrics` endpoint, which Prometheus scrapes to visualize key metrics like latency and error rates in a Grafana dashboard.
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=parhamdehghani&show_icons=true&hide_border=true&theme=default" alt="GitHub stats"/>
