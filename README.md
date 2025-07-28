@@ -80,7 +80,7 @@ Find my peer‑reviewed HEP papers on [Inspire‑HEP](https://inspirehep.net/au
 ## 🔭 Currently Working On
 
 ### Churn Prediction AI Agent (churn-prediction-ai-agent)
-This project is to architect, build, and deploy a scalable, end-to-end MLOps system on Google Cloud. This system will use version-controlled data (DVC), tracked experiments (MLflow), a Jenkins CI/CD pipeline, an Airflow-orchestrated deployment to a Google Kubernetes Engine (GKE) cluster, and a Retrieval-Augmented Generation (RAG) agent to automate a customer retention workflow. The codebase can be employed for much larger datasets that can benefit real-world applications. 
+This project is to architect, build, and deploy a scalable, end-to-end MLOps churn prediction system on Google Cloud, employing the huge WSDM-KKBox dataset. This system will use version-controlled data (DVC), tracked experiments (MLflow), a Jenkins CI/CD pipeline, an Airflow-orchestrated deployment to a Google Kubernetes Engine (GKE) cluster, and a Retrieval-Augmented Generation (RAG) agent to automate a customer retention workflow. The codebase can be employed for much larger datasets that can benefit real-world applications. 
 
 **Technology Stack**
 
