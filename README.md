@@ -67,7 +67,7 @@ Find my peer‑reviewed HEP papers on [Inspire‑HEP](https://inspirehep.net/au
 
 | Project | What it does | Stack | Quick Links |
 | --- | --- | --- | --- |
-| **churn-prediction-ai-agent** | Building and deploying scalable MLOps churn prediction system and RAG agent on GCP. | DVC, MLflow, Jenkins CI/CD pipeline, Airflow, Google Kubernetes Engine (GKE), RAG, LLM API, PySpark, Docker | [Repo](https://github.com/parhamdehghani/churn-prediction-ai-agent) |
+| **churn-prediction-ai-agent** | Building and deploying scalable MLOps churn prediction system and RAG agent on GCP. | DVC, MLflow, Jenkins CI/CD pipeline, Airflow, Google Kubernetes Engine (GKE), RAG, LLM API, PySpark, Docker | [Repo](https://github.com/parhamdehghani/churn-prediction-ai-agent), Ongoing Project |
 | **solar-flux-forecasting** | Forecasting daily solar F10.7 index for a 7-day horizon. | Model optimization, XGBoost, Streamlit, Unit test, Scientific report | [Repo](https://github.com/parhamdehghani/solar-flux-forecasting), [Report](https://drive.google.com/file/d/1NeYGwvV9T032_Cidss_KUKZhlRs7fapI/view?usp=sharing) |
 | **detoxification‑rl** | RL‑based detoxification for LLM outputs using PPO & LoRA. | PyTorch, PEFT, Hugging Face Transformers, Reinforcement Learning | [Repo](https://github.com/parhamdehghani/detoxification-rl) |
 | **WebApp_DisasterResponse** | Multi‑label crisis classifier with TF‑IDF, wrapped in a Flask web‑app. | ML-Pipeline, Flask, SVM, SQL | [Repo](https://github.com/parhamdehghani/WebApp_DisasterResponse)  |
