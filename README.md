@@ -33,8 +33,8 @@ Find my peer‑reviewed HEP papers on [Inspire‑HEP](https://inspirehep.net/au
 | **Languages** | Python · SQL · Bash · C++/Fortran (HPC) |
 | **Frameworks** | PyTorch · TensorFlow · scikit‑learn · Hugging Face 🤗 · LangChain |
 | **MLOps / Infra** | Docker · Kubernetes · Airflow · MLflow · DVC · GitHub Actions · Jenkins · Prometheus + Grafana |
-| **Cloud** | AWS (SageMaker, Lambda, S3) · GCP (Vertex AI, BigQuery) |
-| **Data Processing** | Spark · Dask · Pandas |
+| **Cloud** | AWS (SageMaker, Lambda, S3) · GCP (Vertex AI, Cloud Run, BigQuery) |
+| **Data Processing** | PySpark · Dask · Pandas · CUDA |
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="50" height="50"/>
