@@ -73,7 +73,6 @@ Find my peer‑reviewed HEP papers on [Inspire‑HEP](https://inspirehep.net/au
 | **detoxification‑rl** | RL‑based detoxification for LLM outputs using PPO & LoRA. | PyTorch, PEFT, Hugging Face Transformers, Reinforcement Learning | [Repo](https://github.com/parhamdehghani/detoxification-rl) |
 | **WebApp_DisasterResponse** | Multi‑label crisis classifier with TF‑IDF, wrapped in a Flask web‑app. | ML-Pipeline, Flask, SVM, SQL | [Repo](https://github.com/parhamdehghani/WebApp_DisasterResponse)  |
 | **Recommendation Engine** | Personalized recommendation engine using collaborative filtering and matrix factorization. | Pandas, SVD | [Repo](https://github.com/parhamdehghani/Recommendation_Engine) |
-| **Seattle Airbnb Insight** | Analyzes Airbnb prices & explores key factors with interactive visuals. | Pandas, Matplotlib | [Repo](https://github.com/parhamdehghani/SeattleAirbnbInsight)  |
 | **CovidDetectionXRay** | Detects COVID‑19 from chest X‑rays. | DenseNet201, PyTorch | [Repo](https://github.com/parhamdehghani/CovidDetectionXRay) |
 
 > ✨ See more on my [Portfolio](https://parhamdehghani.github.io/Portfolio/).
