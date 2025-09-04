@@ -81,34 +81,46 @@ Find my peer‑reviewed HEP papers on [Inspire‑HEP](https://inspirehep.net/au
 
 ## 🔭 Currently Working On
 
-### Churn Prediction AI Agent (churn-prediction-ai-agent)
-This project is to architect, build, and deploy a scalable, end-to-end MLOps churn prediction system on Google Cloud, employing the huge WSDM-KKBox dataset. This system will use version-controlled data (DVC), tracked experiments (MLflow), a Jenkins CI/CD pipeline, an Airflow-orchestrated deployment to a Google Kubernetes Engine (GKE) cluster, and a Retrieval-Augmented Generation (RAG) agent to automate a customer retention workflow. The codebase can be employed for much larger datasets that can benefit real-world applications. 
+# Project: ArXiv-Oracle - A Multi-Agent System for Scientific Discovery
 
-**Technology Stack**
+**Objective:** To design, build, and deploy an end-to-end multi-agent AI system capable of automating scientific literature reviews. This project leverages a fine-tuned LLM as the "brain" for an analytical agent, all hosted within the AWS ecosystem to demonstrate production-level MLOps practices.
 
-This project utilizes a modern, cloud-native technology stack to handle each phase of the machine learning lifecycle:
+### **Phase 1: Data Curation & Foundation (AWS Setup)**
 
-* **Data & Model Versioning**: DVC (Data Version Control)
-* **Experiment Tracking & Registry**: MLflow
-* **Data Processing**: Apache Spark (PySpark), Google Cloud Storage (GCS), Google Cloud Dataproc
-* **API & Containerization**: Python, FastAPI, Docker
-* **CI/CD**: Jenkins, Git, GitHub, Google Artifact Registry
-* **Workflow Orchestration**: Apache Airflow, Google Cloud Composer
-* **Container Orchestration**: Google Kubernetes Engine (GKE)
-* **Generative AI**: Retrieval-Augmented Generation (RAG), Google Vertex AI Vector Search, LangChain, Google Gemini API
-* **Monitoring**: Prometheus, Grafana
-* **Collaboration**: Jira (simulated API)
+* **Goal:** Establish a robust data pipeline and development environment on AWS.
+* **Key Activities:**
+    * Develop a Python script to programmatically download research papers (metadata and PDFs) from the arXiv API.
+    * Set up an **Amazon S3** bucket for raw data storage and for the final, processed fine-tuning dataset.
+    * Configure **Amazon SageMaker Studio** as the primary IDE for data processing, experimentation, and script development.
+    * Create a high-quality, instruction-based dataset for fine-tuning by processing raw text and generating Q&A pairs, summaries, and keyword extractions.
 
-**Project Phases**
+### **Phase 2: Specialized LLM Fine-Tuning (SageMaker)**
 
-The project is structured into six distinct phases, creating a full-cycle MLOps workflow on Google Cloud:
+* **Goal:** Fine-tune an open-source LLM (e.g., Llama 3 8B or Mistral 7B) to specialize in understanding scientific language and concepts.
+* **Key Activities:**
+    * Implement a parameter-efficient fine-tuning (PEFT) script using **QLoRA** via the Hugging Face `transformers` and `peft` libraries.
+    * Package the script and execute it as a **SageMaker Training Job** on a suitable GPU instance.
+    * Evaluate the fine-tuned model against the base model on a hold-out set to measure performance improvements in scientific comprehension tasks.
+    * Version and store the final model artifacts in S3.
 
-1.  **Data Engineering & Predictive Modeling at Scale**: Processes a large dataset, versioned with **DVC**, and trains a churn prediction model using **PySpark** on a serverless Google Cloud Dataproc job. All experiments are tracked using **MLflow**, with artifacts stored in Google Cloud Storage.
-2.  **API Development & Containerization**: Builds a lightweight **FastAPI** microservice to serve model predictions. This application is then containerized using **Docker** to ensure portability and consistency.
-3.  **Continuous Integration (CI) Automation**: Creates a CI/CD pipeline using a `Jenkinsfile` to automatically test the application, pull versioned data with **DVC**, build the Docker image, and publish it to a private **Google Artifact Registry** repository.
-4.  **Workflow Orchestration with Airflow**: Uses **Apache Airflow** to orchestrate the entire ML pipeline. A DAG is defined to automate the model training on Dataproc, query the MLflow registry for a validated model, and trigger the deployment to a **Google Kubernetes Engine (GKE)** cluster.
-5.  **The "Intelligence Agent" with Gemini**: Develops a **RAG** agent using **LangChain** and the **Gemini API**. The agent investigates high-risk users by querying a **Vertex AI Vector Search** knowledge base and automatically creates a detailed intervention task in Jira with its findings.
-6.  **Application & Performance Monitoring**: Implements a monitoring stack with **Prometheus** and **Grafana** deployed inside the **GKE** cluster. The FastAPI application is instrumented to expose a `/metrics` endpoint, which Prometheus scrapes to visualize key metrics like latency and error rates in a Grafana dashboard.
+### **Phase 3: Multi-Agent System Development (CrewAI)**
+
+* **Goal:** Architect a collaborative team of AI agents to handle the research workflow.
+* **Key Activities:**
+    * Utilize the **CrewAI** framework to define three distinct agent roles:
+        1.  **`Literature_Researcher`:** Queries the arXiv API to find relevant papers.
+        2.  **`Research_Analyst`:** Uses the fine-tuned LLM and a **RAG (Retrieval-Augmented Generation)** pipeline with a vector database (ChromaDB/FAISS) to analyze the full text of the papers.
+        3.  **`Report_Synthesizer`:** Compiles the findings into a coherent, human-readable summary.
+    * Develop custom tools for the agents, such as the arXiv search function and PDF text extractor.
+
+### **Phase 4: Integration & Productionization (Docker & SageMaker Endpoints)**
+
+* **Goal:** Deploy the system components to create a functional, end-to-end application.
+* **Key Activities:**
+    * Deploy the fine-tuned model to a **SageMaker Endpoint**, creating a scalable, real-time inference API.
+    * Integrate the agent system with the live SageMaker Endpoint.
+    * Containerize the entire CrewAI application using **Docker** to ensure portability and reproducibility.
+    * Create a CI/CD workflow using **GitHub Actions** to automate the building of the Docker container.
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=parhamdehghani&show_icons=true&hide_border=true&theme=default" alt="GitHub stats"/>
