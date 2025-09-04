@@ -84,7 +84,7 @@ Find my peer‑reviewed HEP papers on [Inspire‑HEP](https://inspirehep.net/au
 
 # scientific-multi-agent-HEP: A Multi-Agent System for Scientific Research (High Energy Physics)
 
-**Objective:** To design, build, and deploy an end-to-end multi-agent AI system capable of automating scientific literature reviews. This project leverages a fine-tuned LLM as the "brain" for an analytical agent, all hosted within the AWS ecosystem to demonstrate production-level MLOps practices.
+**Objective:** To design, build, and deploy an end-to-end multi-agent AI system capable of automating scientific literature reviews in HEP. This project leverages a fine-tuned LLM as the "brain" for an analytical agent, all hosted within the AWS ecosystem to demonstrate production-level MLOps practices.
 
 ### **Phase 1: Data Curation & Foundation (AWS Setup)**
 
