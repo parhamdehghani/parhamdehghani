@@ -82,7 +82,7 @@ Find my peer‑reviewed HEP papers on [Inspire‑HEP](https://inspirehep.net/au
 
 ## 🔭 Currently Working On
 
-# ArXiv-Oracle: A Multi-Agent System for Scientific Research
+# scientific-multi-agent-HEP: A Multi-Agent System for Scientific Research (High Energy Physics)
 
 **Objective:** To design, build, and deploy an end-to-end multi-agent AI system capable of automating scientific literature reviews. This project leverages a fine-tuned LLM as the "brain" for an analytical agent, all hosted within the AWS ecosystem to demonstrate production-level MLOps practices.
 
