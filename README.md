@@ -16,10 +16,10 @@
 
 ## 🚀 About Me
 
-* **5+ years** designing, training & shipping ML models across **Scale AI**, startups and academia.
+* **Machine Learning Engineer** with a background in computational particle physics, specializing in model training/evaluation, deployment,  and production systems.
 * **PhD in High Energy Physics** with collider phenomenology specialization, applying advanced ML algorithms to Beyond‑Standard‑Model (BSM) searches at present and future colliders.
 * Specialize in **AI development** and **LLM evaluation & fine‑tuning** (SFT & RLHF) across text, image, video & audio.
-* Proficient to build MLOps pipelines with **Docker · Kubernetes · Airflow · MLflow · GitHub Actions** on **AWS SageMaker** & **GCP Vertex AI**.
+* Proficient to build MLOps pipelines with **Docker · Kubernetes · Airflow · MLflow · GitHub Actions/Jenkins** on **AWS SageMaker** & **GCP Vertex AI**.
 * Passionate about bridging **HPC ↔ Cloud** and **Research ↔ Production**.
 
 ## 📚 Publications
